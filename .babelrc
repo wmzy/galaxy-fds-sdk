@@ -1,0 +1,12 @@
+{
+  "presets": [
+    ["env", {
+      "modules": "umd",
+      "targets": {
+        "browsers": ["last 2 versions"],
+        "node": 6
+      }
+    }]
+  ],
+  "plugins": ["transform-object-rest-spread"]
+}
